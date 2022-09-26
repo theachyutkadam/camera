@@ -1,4 +1,6 @@
 <div>
   Enter Your Name: <input type="text" value={{name}} /> <br />
-  <button (click)="customer($event)">Click me!</button>
+  <button (click)="customer($event)">Click me!</button><br>
+  User Name: <input type="text" [(ngModel)]="userName" ><br/>
+  {{userName}}
 </div>
